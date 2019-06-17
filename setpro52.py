@@ -1,0 +1,16 @@
+a,b=input().split()
+a1=int(a)
+b1=int(b)
+a,b=input().split()
+a2=int(a)
+b2=int(b)
+a,b=input().split()
+a3=int(a)
+b3=int(b)
+a,b=input().split()
+a4=int(a)
+b4=int(b)
+if (a1==a2 and a3==a4 and b1==b4 and b2==b3) or (a1==a2 and a3==a4 and b1==b3 and b2==b4) or (a1==a3 and a2==a4 and b1==b4 and b2==b3) or (a1==a3 and a2==a4 and b3==b4 and b2==b1) or (a1==a4 and a2==a3 and b3==b4 and b2==b1) or (a1==a4 and a2==a3 and b3==b1 and b2==b4):
+  print('yes')
+else:
+  print('no')
