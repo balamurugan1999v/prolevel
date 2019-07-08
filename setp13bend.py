@@ -17,3 +17,4 @@ for i in range(k):
   s2.append(c)
 for k in range(len(s2)):
   print(s2[k])
+#
